@@ -1,7 +1,6 @@
 def call() {
-  def full_string = "Git1 
-  Git2"
-  def arr = full_string.split(" ")
+  def full_string = "Git1\nGit2"
+  def arr = full_string.split("\n")
   for (i in arr) {
     println "now got ${i}"
   }
