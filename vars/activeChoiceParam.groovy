@@ -1,5 +1,11 @@
 def call() {
   //println "full_string"
-  //return ["AGit1", "AGit2"]
-  return "AGit1\nAGit2"
+   def fruitTypes = ['APPLE', 'BANANA', 'ORANGE']
+ 
+    return '''
+        // Use JavaScript for the active choice script
+        var fruitTypes = %s;
+        return fruitTypes;
+    ''' % fruitTypes.inspect()
+  
 }
