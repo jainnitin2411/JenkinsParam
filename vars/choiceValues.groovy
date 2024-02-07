@@ -1,2 +1,3 @@
-Git1
-Git2
+def call() {
+  return ['Git1', 'Git2']
+}
