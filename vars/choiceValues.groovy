@@ -1,5 +1,5 @@
 def call() {
-  def full_string = "Git1\nGit2"
+  def full_string = "VM\nDesktop"
 //  def arr = full_string.split("\n")
 // for (i in arr) {
 //    println "now got ${i}"
